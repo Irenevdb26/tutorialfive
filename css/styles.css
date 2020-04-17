@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+.title {
+	color:blue;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image:url("../images/background2.jpg");
+		background-size:auto;
+	
+}
+body p {font-family: 'Source Sans Pro', sans-serif;
+color:brown;}
+
+div.container {
+    height: 10em;
+    position: relative }
+div.container p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
